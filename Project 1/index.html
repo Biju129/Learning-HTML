@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Project 1</title>
+</head>
+<body>
+    <h3>Creating a table</h3>
+    <table border>
+        <caption>Studemt Details</caption>
+        <tr>
+            <th>Student_Id</th>
+            <th>Student_Name</th>
+            <th>Student_Age</th>
+            <th>Student_Gender</th>
+        </tr>
+        <tr>
+            <td>101</td>
+            <td>Ravi</td>
+            <td>23</td>
+            <td>Male</td>
+        </tr>
+        <tr>
+            <td>102</td>
+            <td>Eisha Kanth</td>
+            <td>22</td>
+            <td>Female</td>
+        </tr>
+        <tr>
+            <td>103</td>
+            <td>Biju</td>
+            <td>23</td>
+            <td>Male</td>
+        </tr>
+
+        </table>
+
+        <br>
+        <h3>Lists</h3>
+        <h4>Ordered List</h4>
+        <ol>
+            <li>JAVA</li>
+            <li>SQL</li>
+            <li>Python</li>
+            <li>C++</li>
+        </ol>
+        <H4>Unordered List</H4>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Bootstrap</li>
+        </ul>
+        <h4>Description List</h4>
+
+        <dt>Java</dt>
+        <dd>Java is a Object oriented programming language</dd>
+        <dt>SQL</dt>
+        <dd>SQL - Structured Query Language</dd>
+
+        <br>
+
+        <h3>IFRAME</h3>
+        <iframe src="https://www.flipkart.com/" frameborder="0" height="250px" width="100%"></iframe>
+
+        <br>
+        <h3>Form Tag usage</h3>
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text"><br><br>
+            <label for="email">Email</label>
+            <input type="email"><br><br>
+            <label for="phone">Phone Number</label>
+            <input type="number"><br><br>
+            <h4>Raadio Button</h4>
+            <label for="gender">Gender</label><br><br>
+            <input type="radio" required id="Male" name="gender">
+            <label for="Male">Male</label><br><br>
+            <input type="radio" required id="Fele" name="gender">
+            <label for="Female">Female</label><br><br>
+            <input type="radio" required id="Others" name="gender">
+            <label for="Others">Others</label><br><br>
+            <h4>Creating a datalist in form</h4>
+            <label for="YOG">Year of Graduation</label>
+            <input list="YOG">
+            <datalist id="YOG">
+                <option value="2021">2021</option>
+                <option value="2022">2022</option>
+                <option value="2023">2023</option>
+                <option value="2024">2024</option>
+            </datalist><br><br>
+            <input type="submit">
+
+            <h5>username validation</h5>
+            <label for="usname">Username</label>
+            <input type="text" name="" required id="usname" pattern="[a-zA-Z]{3,8}"><br><br>
+            <input type="submit">
+        </form>
+
+        <br>
+    
+        <h3> Page Scrolling with id </h3>
+    <button><a href="#html">HTML</a></button>
+    <button><a href="#css">CSS</a></button>
+    <button><a href="#JS">JS</a></button>
+
+    <p id="html">
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+        Aenean commodo ligula eget dolor. Aenean massa.
+        Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+        ulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.
+        In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. 
+        Nullam dictum felis eu pede mollis pretium. Integer tincidunt. 
+        Cras dapibus. Vivamus elementum semper nisi. 
+        Aenean vulputate eleifend tellus. 
+    </p>
+
+    <p id="css">
+        Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
+        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
+        Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. 
+        Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. 
+        Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. 
+        Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. 
+        Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. 
+        Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. 
+        Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+        Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
+    </p>
+
+    <p id="JS">
+        Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. 
+        Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. 
+        Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. 
+        Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. 
+        Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. 
+        Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. 
+        Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. 
+        Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. 
+        Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.
+        Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.
+    </p>
+
+</body>
+</html>
